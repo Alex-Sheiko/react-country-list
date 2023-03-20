@@ -11,6 +11,7 @@ This project contains information about countries with flags, names, capitals, a
 ## Technologies used
 
 - React
+- TypeScript
 - Bootstrap
 
 ## Author
