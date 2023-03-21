@@ -1,5 +1,3 @@
-type BadgeLabel = 'area' | 'population';
-
 interface Country {
   flag: string;
   name: string;
@@ -35,7 +33,7 @@ interface CountryNativeApi {
 }
 
 interface CountryNativeNameApi {
-  [key: string]: CountryNativeApi | undefined;
+  [abbreviation: string]: CountryNativeApi | undefined;
 }
 
-export type { BadgeLabel, Country, CountryApi };
+export type { Country, CountryApi };

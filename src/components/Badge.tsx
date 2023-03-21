@@ -1,5 +1,6 @@
 import React from 'react';
-import { BadgeLabel } from '../types/types';
+
+type BadgeLabel = 'area' | 'population';
 
 interface BadgeProps {
   label: BadgeLabel;
@@ -9,8 +10,8 @@ interface BadgeProps {
 
 export const Badge = ({ color, value, label }: BadgeProps) => {
   return (
-    <div className={`badge bg-${color} col-2 p-2`}>
+    <span className={`badge bg-${color} col-2 p-2`}>
       {label}: {value}
-    </div>
+    </span>
   );
 };
