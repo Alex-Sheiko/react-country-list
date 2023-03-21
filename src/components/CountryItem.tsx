@@ -1,13 +1,13 @@
 import { Country } from '../types/types';
 import { Badge } from './Badge';
 
-interface ItemProps {
+interface CountryItemProps {
   country: Country;
 }
 
 export const CountryItem = ({
   country: { flag, name, capital, region, area, population },
-}: ItemProps) => {
+}: CountryItemProps) => {
   return (
     <li className="list-group-item d-flex row align-items-center justify-content-between">
       <img className="col-1" src={flag} alt="flag" width="105" height="50" />

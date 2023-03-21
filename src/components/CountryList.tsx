@@ -1,11 +1,11 @@
 import { Country } from '../types/types';
 import { CountryItem } from './CountryItem';
 
-interface ListProps {
+interface CountryListProps {
   countries: Country[];
 }
 
-export const CountryList = ({ countries }: ListProps) => {
+export const CountryList = ({ countries }: CountryListProps) => {
   return (
     <div className="container">
       <ul className="list-group">
