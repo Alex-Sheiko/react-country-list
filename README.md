@@ -6,7 +6,7 @@ This project contains information about countries with flags, names, capitals, a
 
 ## Preview
 
-![Image](https://github.com/Alex-Sheiko/react-country-list/tree/main/preview/react-country-list.png)
+![Image](https://github.com/Alex-Sheiko/react-country-list/blob/main/preview/react-country-list.png)
 
 ## Technologies used
 
