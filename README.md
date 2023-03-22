@@ -2,7 +2,7 @@
 
 This project contains information about countries with flags, names, capitals, areas and populations.
 
-[Website](https://github.com/Alex-Sheiko/react-country-list)
+[Website](https://alex-sheiko.github.io/react-country-list/)
 
 ## Preview
 
