@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/react-country-list/static/css/main.c2cab247.css",
+    "main.js": "/react-country-list/static/js/main.bbc08941.js",
+    "index.html": "/react-country-list/index.html",
+    "main.c2cab247.css.map": "/react-country-list/static/css/main.c2cab247.css.map",
+    "main.bbc08941.js.map": "/react-country-list/static/js/main.bbc08941.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c2cab247.css",
+    "static/js/main.bbc08941.js"
+  ]
+}
