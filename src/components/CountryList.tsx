@@ -10,7 +10,7 @@ export const CountryList = ({ countries }: CountryListProps) => {
     <div className="container">
       <ul className="list-group">
         {countries.map((country) => {
-          return <CountryItem country={country} />;
+          return <CountryItem key={country.name} country={country} />;
         })}
       </ul>
     </div>
